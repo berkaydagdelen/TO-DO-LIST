@@ -1,0 +1,21 @@
+ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .chck {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    appearance: auto;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .chck + span {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
